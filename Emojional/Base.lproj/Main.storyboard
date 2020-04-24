@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +10,98 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Emojional" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We all get EMOJIonal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vMZ-hF-4Ow">
+                                <rect key="frame" x="75" y="114" width="264" height="33"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BOx-Vx-OYv">
+                                <rect key="frame" x="206" y="344" width="158" height="152"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                                <state key="normal" title="TiredEmoji" image="Tired Emoji"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F9I-xd-3ga"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mZG-6E-P3P">
+                                <rect key="frame" x="50" y="172" width="158" height="152"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                                <state key="normal" title="ProudEmoji" image="Proud Emoji"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1FA-fv-VX0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IPv-cs-g2z">
+                                <rect key="frame" x="206" y="516" width="158" height="152"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                                <state key="normal" title="AngryEmoji" image="Angry Emoji"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kCR-ry-zxb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UQF-Wb-4a6">
+                                <rect key="frame" x="50" y="516" width="156" height="152"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                                <state key="normal" title="Button" image="Smile Emoji"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gyl-xH-ijx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BoG-S7-cMh">
+                                <rect key="frame" x="204" y="172" width="160" height="152"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                                <state key="normal" title="AnnoyedEmoji" image="Annoyed Emoji"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MlX-uc-hZr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eka-hX-Qu6">
+                                <rect key="frame" x="50" y="344" width="157" height="152"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                                <state key="normal" title="ShyEmoji" image="Shy Emoji"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g8b-PT-YkR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.98255202207565817" blue="0.83515937538321783" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="eka-hX-Qu6" firstAttribute="top" secondItem="mZG-6E-P3P" secondAttribute="bottom" constant="20" id="6ad-ng-OtK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IPv-cs-g2z" secondAttribute="trailing" constant="50" id="7l3-Hb-HbB"/>
+                            <constraint firstItem="UQF-Wb-4a6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="EQS-p3-0cc"/>
+                            <constraint firstItem="UQF-Wb-4a6" firstAttribute="top" secondItem="eka-hX-Qu6" secondAttribute="bottom" constant="20" id="FZG-W8-EuY"/>
+                            <constraint firstItem="eka-hX-Qu6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="FfL-qi-HJH"/>
+                            <constraint firstItem="vMZ-hF-4Ow" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="FmR-Dl-kAh"/>
+                            <constraint firstItem="mZG-6E-P3P" firstAttribute="top" secondItem="vMZ-hF-4Ow" secondAttribute="bottom" constant="25" id="Lf3-JZ-Fgz"/>
+                            <constraint firstItem="BoG-S7-cMh" firstAttribute="top" secondItem="vMZ-hF-4Ow" secondAttribute="bottom" constant="25" id="Vfc-bG-I6g"/>
+                            <constraint firstItem="vMZ-hF-4Ow" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="WDw-Cl-L9A"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BOx-Vx-OYv" secondAttribute="trailing" constant="50" id="beY-AZ-lJ0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BoG-S7-cMh" secondAttribute="trailing" constant="50" id="d5b-YZ-Gis"/>
+                            <constraint firstItem="BOx-Vx-OYv" firstAttribute="top" secondItem="BoG-S7-cMh" secondAttribute="bottom" constant="20" id="fwi-uh-EOl"/>
+                            <constraint firstItem="IPv-cs-g2z" firstAttribute="top" secondItem="BOx-Vx-OYv" secondAttribute="bottom" constant="20" id="n6Z-hg-0eX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vMZ-hF-4Ow" secondAttribute="trailing" constant="75" id="wsF-UV-aAg"/>
+                            <constraint firstItem="mZG-6E-P3P" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="yB4-Zk-gDX"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="102.45535714285714"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Angry Emoji" width="152" height="152"/>
+        <image name="Annoyed Emoji" width="152" height="152"/>
+        <image name="Proud Emoji" width="152" height="152"/>
+        <image name="Shy Emoji" width="152" height="152"/>
+        <image name="Smile Emoji" width="152" height="152"/>
+        <image name="Tired Emoji" width="152" height="152"/>
+    </resources>
 </document>
