@@ -21,72 +21,72 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BOx-Vx-OYv">
-                                <rect key="frame" x="206" y="344" width="158" height="152"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
-                                <state key="normal" title="TiredEmoji" image="Tired Emoji"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zfQ-5T-rfK">
+                                <rect key="frame" x="100" y="177" width="75" height="96"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <state key="normal" title="😠"/>
                                 <connections>
-                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F9I-xd-3ga"/>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZKx-eX-gB4"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mZG-6E-P3P">
-                                <rect key="frame" x="50" y="172" width="158" height="152"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
-                                <state key="normal" title="ProudEmoji" image="Proud Emoji"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iBK-eG-sVe">
+                                <rect key="frame" x="239" y="177" width="75" height="96"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <state key="normal" title="🤨"/>
                                 <connections>
-                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1FA-fv-VX0"/>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RQY-fx-mOe"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IPv-cs-g2z">
-                                <rect key="frame" x="206" y="516" width="158" height="152"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
-                                <state key="normal" title="AngryEmoji" image="Angry Emoji"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rq4-eL-JE2">
+                                <rect key="frame" x="100" y="303" width="75" height="96"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <state key="normal" title="😀"/>
                                 <connections>
-                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kCR-ry-zxb"/>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c0b-J2-B7a"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UQF-Wb-4a6">
-                                <rect key="frame" x="50" y="516" width="156" height="152"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
-                                <state key="normal" title="Button" image="Smile Emoji"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7aJ-vk-gs2">
+                                <rect key="frame" x="239" y="303" width="75" height="96"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <state key="normal" title="☺️"/>
                                 <connections>
-                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gyl-xH-ijx"/>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e87-PC-bIA"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BoG-S7-cMh">
-                                <rect key="frame" x="204" y="172" width="160" height="152"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
-                                <state key="normal" title="AnnoyedEmoji" image="Annoyed Emoji"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="USF-Ud-O5r">
+                                <rect key="frame" x="100" y="429" width="75" height="96"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <state key="normal" title="😎"/>
                                 <connections>
-                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MlX-uc-hZr"/>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qSt-Fv-Pfy"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eka-hX-Qu6">
-                                <rect key="frame" x="50" y="344" width="157" height="152"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
-                                <state key="normal" title="ShyEmoji" image="Shy Emoji"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XFt-Io-bhm">
+                                <rect key="frame" x="239" y="429" width="75" height="96"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <state key="normal" title="🥱"/>
                                 <connections>
-                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g8b-PT-YkR"/>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YW1-WK-lEp"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.98255202207565817" blue="0.83515937538321783" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="eka-hX-Qu6" firstAttribute="top" secondItem="mZG-6E-P3P" secondAttribute="bottom" constant="20" id="6ad-ng-OtK"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IPv-cs-g2z" secondAttribute="trailing" constant="50" id="7l3-Hb-HbB"/>
-                            <constraint firstItem="UQF-Wb-4a6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="EQS-p3-0cc"/>
-                            <constraint firstItem="UQF-Wb-4a6" firstAttribute="top" secondItem="eka-hX-Qu6" secondAttribute="bottom" constant="20" id="FZG-W8-EuY"/>
-                            <constraint firstItem="eka-hX-Qu6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="FfL-qi-HJH"/>
+                            <constraint firstItem="USF-Ud-O5r" firstAttribute="top" secondItem="rq4-eL-JE2" secondAttribute="bottom" constant="30" id="BT2-RF-Z5j"/>
+                            <constraint firstItem="zfQ-5T-rfK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="BUg-ri-5aK"/>
+                            <constraint firstItem="rq4-eL-JE2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="Dr4-Y8-AtW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XFt-Io-bhm" secondAttribute="trailing" constant="100" id="FWd-2K-ZoB"/>
                             <constraint firstItem="vMZ-hF-4Ow" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="FmR-Dl-kAh"/>
-                            <constraint firstItem="mZG-6E-P3P" firstAttribute="top" secondItem="vMZ-hF-4Ow" secondAttribute="bottom" constant="25" id="Lf3-JZ-Fgz"/>
-                            <constraint firstItem="BoG-S7-cMh" firstAttribute="top" secondItem="vMZ-hF-4Ow" secondAttribute="bottom" constant="25" id="Vfc-bG-I6g"/>
+                            <constraint firstItem="rq4-eL-JE2" firstAttribute="top" secondItem="zfQ-5T-rfK" secondAttribute="bottom" constant="30" id="PZz-0b-HbS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7aJ-vk-gs2" secondAttribute="trailing" constant="100" id="Vgk-6U-EWE"/>
                             <constraint firstItem="vMZ-hF-4Ow" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="WDw-Cl-L9A"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BOx-Vx-OYv" secondAttribute="trailing" constant="50" id="beY-AZ-lJ0"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BoG-S7-cMh" secondAttribute="trailing" constant="50" id="d5b-YZ-Gis"/>
-                            <constraint firstItem="BOx-Vx-OYv" firstAttribute="top" secondItem="BoG-S7-cMh" secondAttribute="bottom" constant="20" id="fwi-uh-EOl"/>
-                            <constraint firstItem="IPv-cs-g2z" firstAttribute="top" secondItem="BOx-Vx-OYv" secondAttribute="bottom" constant="20" id="n6Z-hg-0eX"/>
+                            <constraint firstItem="zfQ-5T-rfK" firstAttribute="top" secondItem="vMZ-hF-4Ow" secondAttribute="bottom" constant="30" id="iCh-Yn-MoM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iBK-eG-sVe" secondAttribute="trailing" constant="100" id="nPq-Vx-wda"/>
+                            <constraint firstItem="USF-Ud-O5r" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="qQF-sd-mBl"/>
+                            <constraint firstItem="iBK-eG-sVe" firstAttribute="top" secondItem="vMZ-hF-4Ow" secondAttribute="bottom" constant="30" id="srT-NU-MqO"/>
+                            <constraint firstItem="XFt-Io-bhm" firstAttribute="top" secondItem="7aJ-vk-gs2" secondAttribute="bottom" constant="30" id="wYe-iB-BDZ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vMZ-hF-4Ow" secondAttribute="trailing" constant="75" id="wsF-UV-aAg"/>
-                            <constraint firstItem="mZG-6E-P3P" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="yB4-Zk-gDX"/>
+                            <constraint firstItem="7aJ-vk-gs2" firstAttribute="top" secondItem="iBK-eG-sVe" secondAttribute="bottom" constant="30" id="xfY-p2-BV7"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -96,12 +96,4 @@
             <point key="canvasLocation" x="137.68115942028987" y="102.45535714285714"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="Angry Emoji" width="152" height="152"/>
-        <image name="Annoyed Emoji" width="152" height="152"/>
-        <image name="Proud Emoji" width="152" height="152"/>
-        <image name="Shy Emoji" width="152" height="152"/>
-        <image name="Smile Emoji" width="152" height="152"/>
-        <image name="Tired Emoji" width="152" height="152"/>
-    </resources>
 </document>
